@@ -19,7 +19,7 @@ public class Main {
 
     @Controller
     @RequestMapping("user")
-    public class GreetingController {
+    public static class GreetingController {
 
         private final CounterService counterService;
 
